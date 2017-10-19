@@ -1,7 +1,7 @@
 export default class Nasa {
     constructor(){
         this.probeList = [];
-        this.delimitedArea = {x:0, y: 0}
+        this.delimitedArea = {x:1, y: 1}
     }
     delimitateArea(x,y){
         if(x || y){
