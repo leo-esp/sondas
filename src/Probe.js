@@ -57,6 +57,7 @@ export default class Probe {
                 this.turnRight();
             }
         });
+        console.log(this);
     }
     checkArea(areaLimit) {
         switch (this.direction) {
