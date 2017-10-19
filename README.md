@@ -63,3 +63,17 @@ MMRMMRMRRM
 1 3 N
 5 1 E
 ```
+
+## Para testar o projeto
+
+- clonar o projeto
+- rodar o comando `npm install`
+- rodar o comando `npm start`
+
+O Projeto possui uma interface gráfica onde após inserir a posição inicial da sonda e os comandos de controle, ele desenha a sonda no lugar que ela parou após a execução dos comandos e aponta para a direção também.
+
+A área do planalto é pré definido via código por uma area 10x10(não é possível alterar via interface)
+
+Quando a sonda for ultrapassar o limite de exploração um erro será exibido no console.
+
+Para verificar a posição que ela parou após a execução dos comandos é necessário abrir o console que terá um log da ultima sonda enviada, os atributos s˜åo auto explicativos. A sonda também possui um array e um dicionário para facilitar a movimentação dela.
